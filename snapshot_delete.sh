@@ -3,7 +3,7 @@
 # Dieses Script ermöglicht es, Hetzner-Cloud-Snapshots interaktiv oder automatisiert löschen zu lassen.
 
 usage() {
-    echo "Nutzung: $0 -c <context> -m <alter_in_tagen> [-f] [-y] [-h]"
+    echo "Nutzung: $0 -c <context> -s <server> -m <alter_in_tagen> [-f] [-y] [-h]"
     echo "Optionen:"
     echo "  -c <context>        Kontext für die Operation"
     echo "  -s <server>         Servername"
