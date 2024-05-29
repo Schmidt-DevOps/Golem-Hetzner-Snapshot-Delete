@@ -13,7 +13,7 @@ Einfaches hcloud-Demoskript zum Erstellen und Löschen von Hetzner-Cloud-Server-
 ## Nutzung snapshot_create.sh
 
 ```bash
-Nutzung: ./snapshot_create.sh -c <context> [-h]
+Nutzung: ./snapshot_create.sh -c <context> -s <server> [-h]
 Optionen:
   -c <context> Kontext für die Operation
   -s <server>  Servername
@@ -24,7 +24,7 @@ Optionen:
 ## Nutzung snapshot_delete.sh
 
 ```bash
-Nutzung: ./snapshot_delete.sh -c <context> -m <alter_in_tagen> [-f] [-y] [-h]
+Nutzung: ./snapshot_delete.sh -c <context> -s <server> -m <alter_in_tagen> [-f] [-y] [-h]
 Optionen:
   -c <context>        Kontext für die Operation
   -s <server>         Servername
