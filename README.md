@@ -1,0 +1,1 @@
+# Golem-Hetzner-Snapshot-Delete
