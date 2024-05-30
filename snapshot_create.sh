@@ -3,7 +3,7 @@
 # Dieses Script ermöglicht es, Hetzner-Cloud-Snapshots automatisiert erstellen zu lassen.
 
 usage() {
-    echo "Nutzung: $0 -c <context> -s <server> [-h]"
+    echo "Nutzung: $0 -c <context> -s <server> [-y] [-h]"
     echo "Optionen:"
     echo "  -c <context> Kontext für die Operation"
     echo "  -s <server>  Servername"
